@@ -1,24 +1,26 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+markdown
+Copier
+Modifier
+# 🎬 Projet Allociné - The Hacking Project
 
-Things you may want to cover:
+Ce projet Rails a été réalisé dans le cadre du programme **The Hacking Project**.
 
-* Ruby version
+## 🚀 Objectif
 
-* System dependencies
+Créer une base de données de films (type Allociné) pour apprendre à manipuler les **models Rails**, les **migrations**, la **console Rails** et le **seeding de données avec Faker**.
 
-* Configuration
+## 🛠 Technologies
 
-* Database creation
+- Ruby on Rails 8
+- SQLite3 (BDD locale)
+- Faker (génération de fausses données)
+- table_print (affichage stylé dans la console)
 
-* Database initialization
+## 📦 Installation
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+bundle install
+rails db:create
+rails db:migrate
+rails db:seed
